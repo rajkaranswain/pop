@@ -1,6 +1,9 @@
 # pop
 
-A new Flutter project.
+A new Flutter project.on the age calulation from a certain date already given in the code
+perfect for birthday surprises to a friend
+
+##thank you
 
 ## Getting Started
 
