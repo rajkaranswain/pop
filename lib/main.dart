@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'HAPPY BIRTHDAY PRIYANSHU'),
+      home: MyHomePage(title: 'text to display'),
     );
   }
 }
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   YoutubePlayerController _controller = YoutubePlayerController(
-      initialVideoId: 'B5SqsKOrakI', // id youtube video
+      initialVideoId: 'B5SqsKOrak', // id youtube video just after the /
       flags: YoutubePlayerFlags(
         autoPlay: true,
         mute: false,
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'HAPPY BIRTHDAY MAN' ,
+              'text to display inside the body' ,
              ),
              Text('YOU ARE'),
              Text(calculateAge().toString()+'years '+calculateAge1().toString()+' month '+calculateAge2().toString()+' days'),
